@@ -24,7 +24,6 @@ class TestMakeTransform(MayaBaseTestCase):
 
     def test_node_name(self):
         """Test whether returned name is correct."""
-        print('Testing actions')
         self.assertEqual(self.transform, "TestTransform")
 
     def test_node_exists(self):
